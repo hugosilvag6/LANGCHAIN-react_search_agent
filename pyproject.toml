@@ -1,0 +1,23 @@
+[project]
+name = "langchain-react-search-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hugo Silva", email = "hugosilvag6@hotmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "black>=26.10.1",
+    "isort>=9.0.2",
+    "langchain>=1.4.9",
+    "langchain-ollama>=1.1.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+langchain-react-search-agent = "langchain_react_search_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
