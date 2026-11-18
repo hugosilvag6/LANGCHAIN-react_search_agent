@@ -3,6 +3,8 @@ from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
+from typing import List
+from pydantic import BaseModel, Field
 
 load_dotenv()
 
